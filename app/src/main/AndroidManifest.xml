@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.enggemy22.sherpoproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash.authuntication.OtpActivity"></activity>
+        <activity android:name=".splash.authuntication.RealLogInActivity" />
+        <activity android:name=".splash.authuntication.LogInActivity" />
+        <activity android:name=".splash.ui.MekupActivity" />
+        <activity android:name=".splash.ui.CleaningActivity" />
+        <activity android:name=".splash.ui.MedicalNeesdActivity" />
+        <activity android:name=".splash.ui.PersonalNeedsActivity" />
+        <activity android:name=".splash.ui.OfferActivity" />
+        <activity android:name=".splash.splash.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".splash.ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
